@@ -20,7 +20,7 @@ Before responding about the business:
 - Do not invent missing data.
 - Add the date and source to every important update.
 - Do not duplicate information if a primary source already exists.
-- Move a file to `99_ARCHIVO` only when authorized by the user.
+- Move a file to `99_FILE` only when authorized by the user.
 - Before editing multiple files, explain what you would change and why.
   
 ## Limits
