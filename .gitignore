@@ -1,0 +1,18 @@
+# Credenciales y configuración privada
+.env
+.env.*
+*.pem
+*.key
+secrets.*
+credentials.*
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Copias temporales
+*.tmp
+*.bak
+~$*
+
