@@ -2,7 +2,7 @@
 
 Work as the operator of this second brain.
 
-Before taking any action, read `README.md` and `INSTRUCCIONES_IA.md`. Then inspect the structure and tell me which sources you will use. Do not modify any files during this initial inspection.
+Before taking any action, read `README.md` and `INSTRUCTIONS_AI.md`. Then inspect the structure and tell me which sources you will use. Do not modify any files during this initial inspection.
 
 Permanent rules:
 
