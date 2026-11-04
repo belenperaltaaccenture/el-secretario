@@ -1,4 +1,4 @@
-#el-secretario
+# el-secretario
 
 Initial structure designed to provide stable context to Codex, Claude, Gemini, or any other harness that can work with files.
 
@@ -48,7 +48,7 @@ Then complete [`01_NEGOCIO/CONTEXTO_DEL_NEGOCIO.md`] (01_NEGOCIO/CONTEXTO_DEL_NE
 prompts          Reusable instructions<br><br>
 ```
 
-### Included Automation
+## Included Automation
 
 [`prompts/AUTOMATIZACION_REVISION_SEMANAL.md`] (prompts/AUTOMATIZACION_REVISION_SEMANAL.md) defines a Friday review. The AI can prepare the draft, but it must not publish, send messages, delete sources, or modify external services.
 
