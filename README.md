@@ -52,7 +52,7 @@ prompts          Reusable instructions<br><br>
 
 [`prompts/AUTOMATIZACION_REVISION_SEMANAL.md`] (prompts/AUTOMATIZACION_REVISION_SEMANAL.md) defines a Friday review. The AI can prepare the draft, but it must not publish, send messages, delete sources, or modify external services.
 
-If your tool does not support scheduled tasks, manually run <code spellcheck="false" data-lexical-text="true">[`prompts/REVISION_SEMANAL.md`](prompts/REVISION_SEMANAL.md). The system will continue to work.
+If your tool does not support scheduled tasks, manually run [`prompts/REVISION_SEMANAL.md`](prompts/REVISION_SEMANAL.md). The system will continue to work.
 
 ## Security and Privacy
 
