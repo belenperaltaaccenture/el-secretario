@@ -29,9 +29,9 @@ git clone https://github.com/belenperaltaaccenture/el-secretario.git
 
 Copy the contents of [`MASTER_PROMPT_THE_SECRETARY.md`](MASTER_PROMPT_THE_SECRETARY.md) or tell it:
 
-> Read README.md and INSTRUCCIONES_IA.md. Review the structure and explain how to use it. Do not modify any files yet.
+> Read README.md and INSTRUCTIONS_AI.md. Review the structure and explain how to use it. Do not modify any files yet.
 
-Then complete [`01_NEGOCIO/BUSINESS_CONTEXT.md`](01_NEGOCIO/BUSINESS_CONTEXT.md) and add your first note inside `00_ENTRADA`
+Then complete [`01_BUSINESS/BUSINESS_CONTEXT.md`](01_BUSINESS/BUSINESS_CONTEXT.md) and add your first note inside `00_ENTERED`
 
 ## Structure
 
@@ -50,9 +50,9 @@ prompts          Reusable instructions<br><br>
 
 ## Included Automation
 
-[`prompts/AUTOMATIZACION_REVISION_SEMANAL.md`] (prompts/AUTOMATIZACION_REVISION_SEMANAL.md) defines a Friday review. The AI can prepare the draft, but it must not publish, send messages, delete sources, or modify external services.
+[`prompts/WEEKLY_REVIEW_AUTOMATION.md`](prompts/WEEKLY_REVIEW_AUTOMATION.md) defines a Friday review. The AI can prepare the draft, but it must not publish, send messages, delete sources, or modify external services.
 
-If your tool does not support scheduled tasks, manually run [`prompts/REVISION_SEMANAL.md`](prompts/REVISION_SEMANAL.md). The system will continue to work.
+If your tool does not support scheduled tasks, manually run [`prompts/WEEKLY_REVIEW.md`](prompts/WEEKLY_REVIEW.md). The system will continue to work.
 
 ## Security and Privacy
 
