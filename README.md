@@ -1,72 +1,71 @@
-# el-secretario
+#el-secretario
 
-Estructura inicial para darle contexto estable a Codex, Claude, Gemini u otro harness que pueda trabajar con archivos.
+Initial structure designed to provide stable context to Codex, Claude, Gemini, or any other harness that can work with files.
 
-El sistema sirve para:
+The system is designed to:
+- capture notes, meetings, and ideas without manually organizing them;
+- preserve the original sources;
+- separate decisions, tasks, questions, and content ideas;
+- keep projects and products up to date;
+- prepare a weekly review;
+- automate drafts without publishing or sending anything on its own.
 
-- capturar notas, reuniones e ideas sin ordenarlas manualmente;
-- conservar las fuentes originales;
-- separar decisiones, tareas, preguntas e ideas de contenido;
-- mantener proyectos y productos actualizados;
-- preparar una revisión semanal;
-- automatizar borradores sin publicar ni enviar nada por cuenta propia.
+## Download or Clone
 
-## Descargar o clonar
+### Easy Option
 
-### Opción sencilla
+1. Click the green **button**
+2. Select **Download ZIP**
+3. Extract the folder.
+4. Open it using Codex, Claude Code, Gemini, or whichever tool you use.
 
-1. Presioná el botón verde **Code**.
-2. Elegí **Download ZIP**.
-3. Descomprimí la carpeta.
-4. Abrila desde Codex, Claude Code, Gemini o la herramienta que uses.
-
-### Usando Git
+### Using Git
 
 ```bash
 git clone https://github.com/belenperaltaaccenture/el-secretario.git
 ```
 
-## Primer mensaje para la IA
+## First Message for the AI
 
-Copiá el contenido de [`PROMPT_MAESTRO_SEGUNDO_CEREBRO.md`](PROMPT_MAESTRO_SEGUNDO_CEREBRO.md) o decile:
+Copy the contents of [`PROMPT_MAESTRO_SEGUNDO_CEREBRO.md`] or tell it:
 
-> Leé README.md e INSTRUCCIONES_IA.md. Revisá la estructura y explicame cómo usarla. No modifiques archivos todavía.
+> Read README.md and INSTRUCCIONES_IA.md. Review the structure and explain how to use it. Do not modify any files yet.
 
-Después completá [`01_NEGOCIO/CONTEXTO_DEL_NEGOCIO.md`](01_NEGOCIO/CONTEXTO_DEL_NEGOCIO.md) y dejá tu primera nota dentro de `00_ENTRADA`.
+Then complete [`01_NEGOCIO/CONTEXTO_DEL_NEGOCIO.md`] (01_NEGOCIO/CONTEXTO_DEL_NEGOCIO.md) and add your first note inside `00_ENTRADA`
 
-## Estructura
+## Structure
 
 ```text
-00_ENTRADA       Notas sin procesar
-01_NEGOCIO       Objetivos y criterios: información funcional
-02_CLIENTES      Preguntas y lenguaje real
-03_PRODUCTOS     Tableros, Apps y Power Automate
-04_CONTENIDOS    Ideas y borradores
-05_PROCESOS      Procedimientos repetibles
-06_PROYECTOS     Trabajo activo
-07_REVISIONES    Resúmenes semanales
-99_ARCHIVO       Información inactiva
-prompts          Instrucciones reutilizables
+00_ENTRADA       Unprocessed notes<br>
+01_NEGOCIO       Objectives and criteria: functional information<br>
+02_CLIENTES      Questions and real-world language<br>
+03_PRODUCTOS     Dashboards, Apps, and Power Automate<br>
+04_CONTENIDOS    Ideas and drafts<br>
+05_PROCESOS      Repeatable procedures<br>
+06_PROYECTOS     Active work<br>
+07_REVISIONES    Weekly summaries<br>
+99_ARCHIVO       Inactive information<br>
+prompts          Reusable instructions<br><br>
 ```
 
-## Automatización incluida
+### Included Automation
 
-[`prompts/AUTOMATIZACION_REVISION_SEMANAL.md`](prompts/AUTOMATIZACION_REVISION_SEMANAL.md) define una revisión de los viernes. La IA puede preparar el borrador, pero no publicar, enviar mensajes, borrar fuentes ni cambiar servicios externos.
+[`prompts/AUTOMATIZACION_REVISION_SEMANAL.md`] (prompts/AUTOMATIZACION_REVISION_SEMANAL.md) defines a Friday review. The AI can prepare the draft, but it must not publish, send messages, delete sources, or modify external services.
 
-Si tu herramienta no admite tareas programadas, ejecutá manualmente [`prompts/REVISION_SEMANAL.md`](prompts/REVISION_SEMANAL.md). El sistema sigue funcionando.
+If your tool does not support scheduled tasks, manually run <code spellcheck="false" data-lexical-text="true">[`prompts/REVISION_SEMANAL.md`](prompts/REVISION_SEMANAL.md). The system will continue to work.
 
-## Seguridad y privacidad
+## Security and Privacy
 
-Este repositorio es público y contiene solamente plantillas vacías e instrucciones reutilizables.
+This repository is public and contains only empty templates and reusable instructions.
 
-Cuando lo uses:
+When using it:
 
-- no subas información real de clientes a un repositorio público;
-- no guardes contraseñas, claves de API, tarjetas ni documentos personales;
-- trabajá localmente o creá un repositorio privado para tu información real;
-- revisá siempre los cambios antes de publicar o compartir;
-- conservá intervención humana para acciones externas.
+- do not upload real client information to a public repository;
+- do not store passwords, API keys, card information, or personal documents;
+- work locally or create a private repository for your real information;
+- always review changes before publishing or sharing;
+- keep a human in the loop for external actions.
 
-## Regla principal
+## Main Rule
 
-Los archivos guardan la memoria. La IA procesa. Las automatizaciones repiten. La persona decide.
+Files store the memory. AI processes it. Automations repeat it. The person decides.
