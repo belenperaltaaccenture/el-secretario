@@ -36,16 +36,16 @@ Then complete [`01_BUSINESS/BUSINESS_CONTEXT.md`](01_BUSINESS/BUSINESS_CONTEXT.m
 ## Structure
 
 ```text
-00_ENTRADA       Unprocessed notes<br>
-01_NEGOCIO       Objectives and criteria: functional information<br>
-02_CLIENTES      Questions and real-world language<br>
-03_PRODUCTOS     Dashboards, Apps, and Power Automate<br>
-04_CONTENIDOS    Ideas and drafts<br>
-05_PROCESOS      Repeatable procedures<br>
-06_PROYECTOS     Active work<br>
-07_REVISIONES    Weekly summaries<br>
-99_ARCHIVO       Inactive information<br>
-prompts          Reusable instructions<br><br>
+00_ENTRADA       Unprocessed notes
+01_NEGOCIO       Objectives and criteria: functional information
+02_CLIENTES      Questions and real-world language
+03_PRODUCTOS     Dashboards, Apps, and Power Automate
+04_CONTENIDOS    Ideas and drafts
+05_PROCESOS      Repeatable procedures
+06_PROYECTOS     Active work
+07_REVISIONES    Weekly summaries
+99_ARCHIVO       Inactive information
+prompts          Reusable instructions
 ```
 
 ## Included Automation
