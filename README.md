@@ -57,9 +57,7 @@ If your tool does not support scheduled tasks, manually run <code spellcheck="fa
 ## Security and Privacy
 
 This repository is public and contains only empty templates and reusable instructions.
-
 When using it:
-
 - do not upload real client information to a public repository;
 - do not store passwords, API keys, card information, or personal documents;
 - work locally or create a private repository for your real information;
@@ -67,5 +65,4 @@ When using it:
 - keep a human in the loop for external actions.
 
 ## Main Rule
-
 Files store the memory. AI processes it. Automations repeat it. The person decides.
