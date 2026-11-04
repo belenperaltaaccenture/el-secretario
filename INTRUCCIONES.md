@@ -1,4 +1,4 @@
-### Instructions for the AI
+# Instructions for the AI
 
 ## Role
 
