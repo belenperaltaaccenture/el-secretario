@@ -27,11 +27,11 @@ git clone https://github.com/belenperaltaaccenture/el-secretario.git
 
 ## First Message for the AI
 
-Copy the contents of [`PROMPT_MAESTRO_SEGUNDO_CEREBRO.md`] or tell it:
+Copy the contents of [`MASTER_PROMPT_THE_SECRETARY.md`](MASTER_PROMPT_THE_SECRETARY.md) or tell it:
 
 > Read README.md and INSTRUCCIONES_IA.md. Review the structure and explain how to use it. Do not modify any files yet.
 
-Then complete [`01_NEGOCIO/CONTEXTO_DEL_NEGOCIO.md`] (01_NEGOCIO/CONTEXTO_DEL_NEGOCIO.md) and add your first note inside `00_ENTRADA`
+Then complete [`01_NEGOCIO/BUSINESS_CONTEXT.md`](01_NEGOCIO/BUSINESS_CONTEXT.md) and add your first note inside `00_ENTRADA`
 
 ## Structure
 
